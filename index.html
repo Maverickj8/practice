@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="./favicon/site.webmanifest">
+</head>
+<body>
+    <h1>The home of practices</h1>
+    <p>Here are links to the web pages</p>
+    <hr>
+    <a href="./pages/about.html" target="_blank">about</a>
+    <a href="./pages/services/services.html" target="_parent">services</a>
+    <a href="./pages/services/contacts/contact.html" target="_self">contact</a>
+ 
+    <table>
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Day</th>
+                <th>Week</t>
+                <th>Months</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Monday</td>
+                <td>first</td>
+                <td>Janunary</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>Tuesday</td>
+                <td>Second</td>
+                <td>February</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>3</td>
+                <td>Tuesday</td>
+                <td>Third</td>
+                <td>March</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>4</td>
+                <td>wednesday</td>
+                <td>Fourth</td>
+                <td>April</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form action="./pages/about.html" method="get">
+        <label for="name">Name</label>
+        <input type="text" id="name" autocomplete="name" placeholder="enter your name here" name="name" value="Chisom" required  minlength="4">  
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="enter your email" name="email">
+        <label for="phone">Call</label>
+        <input type="tel" id="phone" placeholder="phone" name="phone" >
+        <label for="age">age</label>
+        <input type="number" id="age" min="50" max="70" step="10">
+        <label for="date">Date</label>
+        <input type="date" id="date">
+        <label for="nonth">Month</label>
+        <input type="month" id="month">
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">other</label>
+        <input type="radio" id="other" name="gender" value="prefer not to say">
+        <label for="review">Review</label>
+        <input type="range" id="review" placeholder="message">
+        <label for="box">Agree</label>
+        <input type="checkbox" id="box">
+        <label for="color">Color</label>
+        <input type="color" id="color">
+        <!-- <button type="submit">submit</button> -->
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+    </form>
+
+
+
+
+</body>
+</html>
